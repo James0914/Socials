@@ -1,0 +1,109 @@
+* {
+          margin: 0; padding: 0;
+      }
+      
+      @font-face {
+            font-family: 'Inter';
+            src: url('Inter-Regular.ttf') format('truetype'); /* Regular */
+            /* Add other font formats if necessary */
+            font-weight: 400;
+        }
+        @font-face {
+            font-family: 'Inter';
+            src: url('Inter-Bold.ttf') format('truetype'); /* Bold */
+            /* Add other font formats if necessary */
+            font-weight: 700;
+        }
+        @font-face {
+            font-family: 'Inter';
+            src: url('Inter-SemiBold.ttf') format('truetype'); /* Regular */
+            /* Add other font formats if necessary */
+            font-weight: 600;
+        }
+        
+      
+      body {
+          background-color: hsl(0, 0%, 8%);
+          color: hsl(0, 0%, 100%);
+          min-height: 100vh;
+          display: flex;
+          align-items: center;
+          font-family: 'Inter', sans-serif;
+      }
+      
+      .container {
+          
+          max-width: ;
+          margin: 0 auto;
+      }
+      
+      h2, h5, .bio, .socials {
+          text-align: center;
+      }
+      
+      .card {
+          background-color: hsl(0, 0%, 12%);
+          width: 90%;
+          height: auto;
+          margin: 0 auto;
+          padding: 1em;
+          border-radius: 15px;
+          
+      }
+      
+      .img {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 0.5rem 0 1rem 0;
+      }
+      
+      img {
+          border-radius: 50%;
+          width: 5rem;
+          border: 1px solid transparent;
+          padding: ;
+      }
+      
+      h2 {
+          font-weight: 700;
+          
+          padding-bottom: 0.5rem;
+      }
+      
+      h5 {
+          font-weight: 600;
+          font-size: 14px;
+          color: hsl(75, 94%, 57%);
+          padding-bottom: 1.6rem;
+      }
+      
+      .bio {
+          padding-bottom: 0.8rem;
+      }
+      
+      .bio p {
+          font-family: sans-serif;
+          font-size: 1rem;
+          font-weight: 400;
+          opacity: 0.7;
+      }
+      
+      ul {
+          list-style-type: none;
+      }
+      
+      li {
+      padding: 0.8rem 4.8rem;
+      margin: 1rem 0;
+      border-radius: 0.5rem;
+      background-color: hsl(0, 0%, 20%);
+      font-weight: 600;
+      }
+      
+      li:hover {
+          background-color: hsl(75, 94%, 57%);
+          color: hsl(0, 0%, 8%);
+          cursor: pointer;
+      }
+    
